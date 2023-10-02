@@ -4,12 +4,14 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Características', href: '#' },
+  { name: 'Sobre', href: '#' },
+  { name: 'Trajeto', href: '#' },
+  { name: 'Na mídia', href: '#' },
+  { name: 'Fale conosco', href: '#' },
 ];
 
 
@@ -26,11 +28,13 @@ export default function Navbar() {
             <a
               href='#'
               className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Your Company</span>
-              <img
+              <span className='sr-only'>Agro pelo Brasil</span>
+              <Image
                 className='h-8 w-auto'
-                src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-                alt=''
+                src='images/logo-agro-pelo-brasil.svg'
+                alt='logo Agro pelo Brasil'
+                width={256}
+                height={70}
               />
             </a>
           </div>
@@ -39,7 +43,7 @@ export default function Navbar() {
               type='button'
               className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
               onClick={() => setMobileMenuOpen(true)}>
-              <span className='sr-only'>Open main menu</span>
+              <span className='sr-only'>Abrir menu principal</span>
               <Bars3Icon
                 className='h-6 w-6'
                 aria-hidden='true'
@@ -56,13 +60,7 @@ export default function Navbar() {
               </a>
             ))}
           </div>
-          <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-            <a
-              href='#'
-              className='text-sm font-semibold leading-6 text-gray-900'>
-              Log in <span aria-hidden='true'>&rarr;</span>
-            </a>
-          </div>
+          
         </nav>
         <Dialog
           as='div'
@@ -75,12 +73,14 @@ export default function Navbar() {
               <a
                 href='#'
                 className='-m-1.5 p-1.5'>
-                <span className='sr-only'>Your Company</span>
-                <img
-                  className='h-8 w-auto'
-                  src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-                  alt=''
-                />
+                <span className='sr-only'>Agro pelo Brasil</span>
+                <Image
+                className='h-8 w-auto'
+                src='images/logo-agro-pelo-brasil.svg'
+                alt='logo Agro pelo Brasil'
+                width={256}
+                height={70}
+              />
               </a>
               <button
                 type='button'
@@ -105,13 +105,7 @@ export default function Navbar() {
                     </a>
                   ))}
                 </div>
-                <div className='py-6'>
-                  <a
-                    href='#'
-                    className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
-                    Log in
-                  </a>
-                </div>
+               
               </div>
             </div>
           </Dialog.Panel>

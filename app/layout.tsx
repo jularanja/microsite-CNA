@@ -1,8 +1,9 @@
-//'use client'
-
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+
+import Head from 'next/head';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -16,13 +17,23 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang='en'>
-      <body
-        className={`${inter.className} bg-white text-black h-full selection:bg-gray-50`}>
+      <Head>
+        <link
+          rel='icon'
+          href='/favicon.ico'
+        />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
+      </Head>
+      <body className={`bg-white text-black h-full selection:bg-gray-50`}>
         <Navbar />
-        <main className='max-w-container mx-auto px-4 sm:px-6 lg:px-8 h-full'>
+        <main className={'max-w-container mx-auto lg:px-8 h-full'}>
           {children}
         </main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

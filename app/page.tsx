@@ -1,15 +1,18 @@
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import Post from './components/Post';
-import Carousel from './components/Carousel';
+import Slider from './components/Slider';
 import VideoSection from './components/VideoSection';
 
 const Home = () => {
   return (
     <>
-      <HeroSection /> 
-      <VideoSection/> 
-      <Carousel/>
+      <HeroSection />
+      <VideoSection />
+      <React.StrictMode>
+        <Slider />
+      </React.StrictMode>
+
       <Post />
     </>
   );

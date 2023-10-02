@@ -27,10 +27,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           sizes='180x180'
           href='/apple-touch-icon.png'
         />
+        
       </Head>
       <body className={`bg-white text-black h-full selection:bg-gray-50`}>
         <Navbar />
-        <main className={'max-w-container mx-auto lg:px-8 h-full'}>
+        <main className={'max-w-container mx-auto h-full'}>
           {children}
         </main>
         <Footer />

@@ -1,6 +1,26 @@
 import React from 'react';
 import Image from 'next/image';
 
+type Post = {
+  id: number;
+  title: string;
+  href: string;
+  description: string;
+  date: string;
+  datetime: string;
+  url: string;
+  category: {
+    title: string;
+    href: string;
+  };
+  author: {
+    name: string;
+    role: string;
+    href: string;
+    url: string;
+  };
+};
+
 const posts = [
   {
     id: 1,
@@ -11,13 +31,7 @@ const posts = [
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    url: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
 
   {
@@ -29,13 +43,7 @@ const posts = [
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    url: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
 
   {
@@ -47,13 +55,7 @@ const posts = [
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    url: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
 
   {
@@ -65,14 +67,9 @@ const posts = [
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
-    author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    url: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
+
   // More posts...
 ];
 
@@ -96,8 +93,8 @@ const Post = () => {
               <div className='max-w-lg bg-white border flex-1 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
                 <a href='#'>
                   <div>
-                    <img
-                      src={post.imageUrl}
+                    <Image
+                      src={post.url}
                       alt='Description of the image'
                       className='rounded-t-lg'
                       height={100}

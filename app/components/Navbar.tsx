@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import Link from 'next/link';
 
 import { useState } from 'react';
@@ -7,22 +7,35 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
 const navigation = [
-  { name: 'Características', href: '#' },
-  { name: 'Sobre', href: '#' },
-  { name: 'Trajeto', href: '#' },
-  { name: 'Na mídia', href: '#' },
-  { name: 'Fale conosco', href: '#' },
+  { name: 'Apresentação', href: '#apresentacao' },
+  { name: 'Cronograma Anual', href: '#cronograma' },
+  { name: 'Na mídia', href: '#midia' },
+  { name: 'Como participar', href: '#participar' },
+  { name: 'Fale conosco', href: '#contato' },
 ];
 
+for (let i = 0; i < navigation.length; i++) {
+  const hrefText = navigation[i].href;
+  console.log(hrefText);
+}
 
 export default function Navbar() {
+  {
+    /* const scrollToSection = (navId:String) => {
+    const section = document.querySelector(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };*/
+  }
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className='bg-white'>
-      <header className='absolute inset-x-0 top-0 z-50'>
+    <div className=''>
+      <header className='absolute inset-x-0 top-0 z-50 bg-white'>
         <nav
-          className='flex items-center justify-between p-6 lg:px-8'
+          className='flex items-center justify-between p-6 lg:px-8 mx-auto max-w-7xl '
           aria-label='Global'>
           <div className='flex lg:flex-1'>
             <a
@@ -30,10 +43,10 @@ export default function Navbar() {
               className='-m-1.5 p-1.5'>
               <span className='sr-only'>Agro pelo Brasil</span>
               <Image
-                className='h-8 w-auto'
-                src='images/logo-agro-pelo-brasil.svg'
-                alt='logo Agro pelo Brasil'
-                width={256}
+                className='h-16 sm:h-24 w-auto'
+                src='images/logo-cna-senar-icna.svg'
+                alt='logo-cna-senar-icna'
+                width={300}
                 height={70}
               />
             </a>
@@ -55,12 +68,11 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className='text-sm font-semibold leading-6 text-gray-900'>
+                className=' text-base xl:text-lg font-bold leading-6 text-gray-700 hover:bg-light_green active:bg-primary'>
                 {item.name}
               </a>
             ))}
           </div>
-          
         </nav>
         <Dialog
           as='div'
@@ -75,12 +87,12 @@ export default function Navbar() {
                 className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Agro pelo Brasil</span>
                 <Image
-                className='h-8 w-auto'
-                src='images/logo-agro-pelo-brasil.svg'
-                alt='logo Agro pelo Brasil'
-                width={256}
-                height={70}
-              />
+                  className='h-10 w-auto'
+                  src='images/logo-cna-senar-icna.svg'
+                  alt='logo-cna-senar-icna'
+                  width={300}
+                  height={70}
+                />
               </a>
               <button
                 type='button'
@@ -97,22 +109,23 @@ export default function Navbar() {
               <div className='-my-6 divide-y divide-gray-500/10'>
                 <div className='space-y-2 py-6'>
                   {navigation.map((item) => (
-                    <a
+                    <button
                       key={item.name}
-                      href={item.href}
-                      className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
-                      {item.name}
-                    </a>
+                      className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                      onClick={() => setMobileMenuOpen(false)}>
+                      <a
+                        key={item.name}
+                        href={item.href}>
+                        {item.name}
+                      </a>
+                    </button>
                   ))}
                 </div>
-               
               </div>
             </div>
           </Dialog.Panel>
         </Dialog>
       </header>
-
-     
     </div>
   );
 }

@@ -16,24 +16,18 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang='en'>
+    <html lang='en' className="scroll-smooth">
       <Head>
         <link
           rel='icon'
           href='/favicon.ico'
         />
-        <link
-          rel='apple-touch-icon'
-          sizes='180x180'
-          href='/apple-touch-icon.png'
-        />
-        
       </Head>
-      <body className={`bg-white text-black h-full selection:bg-gray-50`}>
+      <body className={`text-black h-full bg-white`}>
         <Navbar />
-        <main className={'max-w-container mx-auto h-full'}>
+        <main className={'max-w-container mx-auto h-full bg-gradient-to-b from-light_gray via-10% via-white  to-light_gray'}>
           {children}
-        </main>
+          </main>
         <Footer />
       </body>
     </html>

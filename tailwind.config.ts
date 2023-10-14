@@ -9,16 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-       
-        primary: '#00604E', 
-        secondary: '#36D75E',
-        light_green: '#E5EDE9', 
-        white: 'white'
-       
+        primary: '#00604E',
+        secondary: '#73b964',
+        headingColor: '#005140',
+        lime_green: '#36D75E',
+        light_green: '#E5EDE9',
+        white: 'white',
+        light_gray: '#d9d9d9',
+        white_overlay: '#d9d9d9a3',
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],
 };
 
 export default config;

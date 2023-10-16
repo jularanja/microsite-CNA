@@ -3,7 +3,7 @@ import HeroSection from './components/HeroSection';
 import Post from './components/Post';
 import Slider from './components/Slider';
 import VideoSection from './components/VideoSection';
-import Teste from './components/teste';
+import Cronograma from './components/Cronograma';
 
 const Home = () => {
   return (
@@ -12,8 +12,7 @@ const Home = () => {
       <VideoSection />
 
       <Slider />
-      <Teste/>
-
+      <Cronograma />
       <Post />
     </>
   );

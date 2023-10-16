@@ -93,13 +93,14 @@ const Post = () => {
               <div className='max-w-lg bg-white border flex-1 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
                 <a href='#'>
                   <div>
-                    <Image
+                    {/* <Image
                       src={post.url}
+                      loader={() => post.url}
                       alt='Description of the image'
                       className='rounded-t-lg'
                       height={100}
                       width={100}
-                    />
+                    /> */}
                   </div>
                 </a>
                 <div className='p-5'>

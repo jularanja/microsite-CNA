@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Cronograma() {
@@ -35,7 +36,7 @@ export default function Cronograma() {
                   <div className="bg-white shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105" style={{ borderRadius: "15px"}}>
                     <div>
                       
-                      <div className="px-4 py-2 h-max">
+                      <div className="px-10 py-2 h-max">
                         <h1 className="text-xl font-gray-700 font-bold text-center mb-10 mt-5">Por onde passamos</h1>
                         
                         <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
@@ -57,18 +58,22 @@ export default function Cronograma() {
                   <div className="bg-white shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105" style={{ borderRadius: "15px"}}>
                     <div>
                       
-                      <div className="px-4 py-2 h-max">
-                        <h1 className="text-xl font-gray-700 font-bold text-center mb-10 mt-5">Por onde passamos</h1>
-                        
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <button className="mt-12 text-center bg-yellow-400 py-2 rounded-lg" style={{ display: "block", margin: "0 auto", width: "150px"}}>Mais antigas</button>
-                      </div>
+                      <div className="px-10 py-2 h-max">
+                        <h1 className="text-xl font-gray-700 font-bold text-center mb-10 mt-5">Próximo destino</h1>
+                        <Image 
+                          src={'/images/placeholder.jpg'} 
+                          alt=''
+                          width={'100'}
+                          height={'100'}
+                          style={{
+                            position: 'relative', 
+                            width: '100%'
+                          }}
+                        />
+                        <span className='pic-date'>10/11</span>
+                        <h3 className='text-center'>Feira Agropecuária</h3>
+                        <p>Support content creators and use your tokens to buy gift cards, exchange for other currencies and more.</p>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -79,25 +84,22 @@ export default function Cronograma() {
                   <div className="bg-white shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105" style={{ borderRadius: "15px"}}>
                     <div>
                       
-                      <div className="px-4 py-2 h-max">
-                        <h1 className="text-xl font-gray-700 font-bold text-center mb-10 mt-5">Por onde passamos</h1>
+                      <div className="px-10 py-2 h-max">
+                        <h1 className="text-xl font-gray-700 font-bold text-center mb-10 mt-5">Em breve</h1>
                         
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
-                        <p><span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span> Japucutebipa</p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
+                        <p><span>Bolinha</span> Japucutebipa <span className='event-date' style={{backgroundColor: '#a8a8a8'}}>01/01</span></p><br/>
                         <button className="mt-12 text-center bg-yellow-400 py-2 rounded-lg" style={{ display: "block", margin: "0 auto", width: "150px"}}>Mais antigas</button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
-              
-
 
             </div>
           </div>

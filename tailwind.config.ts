@@ -18,6 +18,9 @@ const config: Config = {
         light_gray: '#d9d9d9',
         white_overlay: '#d9d9d9a3',
       },
+      minHeight: {
+        '80vh': '80vh',
+      },
     },
   },
   plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],

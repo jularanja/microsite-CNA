@@ -3,7 +3,7 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
     <div
-      className={`before:block before:absolute before:inset-0 before:-z-50 before:bg-gradient-to-b before:from-white before:from-30%  before:via-light_gray before:opacity-70 relative isolate pt-20 px-6 sm:pt-14 lg:px-8 h-screen lg:h-screen bg-bottom bg-no-repeat bg-auto lg:bg-contain `}
+      className={`before:block before:absolute before:inset-0 before:-z-50 before:bg-gradient-to-b before:from-white before:from-30%  before:via-light_gray before:opacity-70 relative isolate py-20 px-6 sm:pt-14 lg:px-8 lg:min-h-80vh bg-bottom bg-no-repeat bg-auto lg:bg-contain `}
       style={{ backgroundImage: 'url("/images/bg-hero-cna.png")' }}>
       <div className='mx-auto max-w-7xl py-10 sm:py-32'>
         <div className='text-center p-6 lg:text-left lg:max-w-lg'>

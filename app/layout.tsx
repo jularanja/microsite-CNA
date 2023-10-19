@@ -23,9 +23,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           href='/favicon.ico'
         />
       </Head>
-      <body className={`text-black h-full bg-white`}>
+      <body className={`text-black h-full bg-gradient-to-b from-light_gray via-10% via-white  to-light_gray`}>
         <Navbar />
-        <main className={'max-w-container mx-auto h-full bg-gradient-to-b from-light_gray via-10% via-white  to-light_gray'}>
+        <main className={'max-w-container mx-auto h-full '}>
           {children}
           </main>
         <Footer />

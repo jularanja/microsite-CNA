@@ -10,9 +10,8 @@ const Home = () => {
     <>
       <HeroSection />
       <VideoSection />
-
-      <Slider />
       <Cronograma />
+      <Slider/>
       <Post />
     </>
   );

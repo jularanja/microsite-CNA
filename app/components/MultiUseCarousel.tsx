@@ -23,7 +23,13 @@ export default function MultiUseCarousel() {
               alt="..."
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             />
-            <div>
+            <div className='bg-white' 
+              style={{
+                height: '-webkit-fill-available', 
+                marginLeft: '-15px',
+                borderRadius: '0'
+              }}
+            >
               <h2 className=" text-headingColor font-bold from-current mb-8 text-center italic">Múltiplos usos</h2>
               <p>Bjorn the chair kallax kallax tall blond women, Thor shieldmaiden scandinavia besta Valhalla Northumbria Leif Erikson hej. </p>
             </div>
@@ -45,7 +51,13 @@ export default function MultiUseCarousel() {
               alt="..."
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             />
-            <div>
+              <div className='bg-white' 
+                style={{
+                  height: '-webkit-fill-available', 
+                  marginLeft: '-15px',
+                  borderRadius: '0'
+                }}
+              >
               <h2 className=" text-headingColor font-bold from-current mb-8 text-center italic">Múltiplos usos</h2>
               <p>Bjorn the chair kallax kallax tall blond women, Thor shieldmaiden scandinavia besta Valhalla Northumbria Leif Erikson hej. </p>
             </div>
@@ -67,7 +79,13 @@ export default function MultiUseCarousel() {
               alt="..."
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             />
-            <div>
+              <div className='bg-white' 
+                style={{
+                  height: '-webkit-fill-available', 
+                  marginLeft: '-15px',
+                  borderRadius: '0'
+                }}
+              >
               <h2 className=" text-headingColor font-bold from-current mb-8 text-center italic">Múltiplos usos</h2>
               <p>Bjorn the chair kallax kallax tall blond women, Thor shieldmaiden scandinavia besta Valhalla Northumbria Leif Erikson hej. </p>
             </div>
@@ -89,7 +107,13 @@ export default function MultiUseCarousel() {
               alt="..."
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             />
-            <div>
+              <div className='bg-white' 
+                style={{
+                  height: '-webkit-fill-available', 
+                  marginLeft: '-15px',
+                  borderRadius: '0'
+                }}
+              >
               <h2 className=" text-headingColor font-bold from-current mb-8 text-center italic">Múltiplos usos</h2>
               <p>Bjorn the chair kallax kallax tall blond women, Thor shieldmaiden scandinavia besta Valhalla Northumbria Leif Erikson hej. </p>
             </div>

@@ -5,6 +5,7 @@ import Slider from './components/Slider';
 import VideoSection from './components/VideoSection';
 import Cronograma from './components/Cronograma';
 import MultiUseCarousel from './components/MultiUseCarousel';
+import EmailForm from './components/EmailForm';
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
       <VideoSection />
       <Cronograma />
       <Slider />
-      <Post />      
+      <Post />
+      <EmailForm />     
     </>
   );
 };

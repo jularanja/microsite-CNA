@@ -13,8 +13,7 @@ const Home = () => {
       <VideoSection />
       <Cronograma />
       <Slider />
-      <Post />
-      <MultiUseCarousel />
+      <Post />      
     </>
   );
 };

@@ -38,7 +38,7 @@ const VideoSection = () => {
                   className='w-full flex justify-center'>
                   {isVisible && (
                     <div
-                      className='absolute shadow-md mt-10 mb-10 min-h-[40vh] w-full max-w-2xl border rounded-3xl dark:border-gray-700 bg-center bg-no-repeat bg-[length:110%_auto]'
+                      className='shadow-md mt-10 mb-10 min-h-[40vh] w-full max-w-2xl border rounded-3xl dark:border-gray-700 bg-center bg-no-repeat bg-[length:110%_auto]'
                       style={{
                         backgroundImage: 'url("/images/video-thumbnail.png")', minHeight:'370px'
                       }}></div>

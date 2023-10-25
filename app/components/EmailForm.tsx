@@ -9,12 +9,12 @@ export default function EmailForm() {
       id='contato'
       className='container  max-w-2xl mx-auto my-24 flex justify-center gap-18 lg:gap-28 flex-col lg:flex-row'>
       <div
-        className='flex max-w-xl  mx-auto flex-col px-5 lg:px-10'
-        style={{ minWidth: '400px' }}>
+        className='flex max-w-sm lg:max-w-xl  mx-auto flex-col px-5 lg:px-10'
+        style={{ minWidth: '' }}>
         <h2 className='text-gray-500  lg:mb-8 text-4xl md:text-5xl font-bold mb-4 from-current text-center italic'>
           Fale Conosco
         </h2>
-        <p className='text-left text-gray-500 font-normal'>
+        <p className='text-center md:text-left text-gray-500 font-normal'>
           <span className='font-medium'>
             Sistema CNA / SENAR / Instituto CNA
           </span>{' '}
@@ -34,7 +34,7 @@ export default function EmailForm() {
           method='post'
           encType='text/plain'
           className='flex max-w-md flex-col gap-4 mx-auto'>
-          <p className='text-left text-gray-500 font-medium mt-2'>
+          <p className='text-center md:text-left text-gray-500 font-medium mt-2'>
             Ficou interessado em contratar a carreta? <br /> Vamos trabalhar
             juntos!
           </p>

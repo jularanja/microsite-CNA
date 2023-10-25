@@ -10,7 +10,6 @@ const navigation = [
   { name: 'Apresentação', href: '#apresentacao' },
   { name: 'Cronograma Anual', href: '#cronograma' },
   { name: 'Na mídia', href: '#midia' },
-  { name: 'Como participar', href: '#participar' },
   { name: 'Fale conosco', href: '#contato' },
 ];
 
@@ -20,15 +19,7 @@ for (let i = 0; i < navigation.length; i++) {
 }
 
 export default function Navbar() {
-  {
-    /* const scrollToSection = (navId:String) => {
-    const section = document.querySelector(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };*/
-  }
-
+  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (

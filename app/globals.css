@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#slider button.group span{
+    background-color: #003a2e30;
+
+}
+
+input{min-width: 350px;}
+
+.slider div.absolute.bottom-5.left-1\/2.flex.-translate-x-1\/2.space-x-3 {
+    left: 25% !important;
+}

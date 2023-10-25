@@ -16,7 +16,7 @@ export default function MultiUseCarousel() {
             id='slider'
             slide={false}
             className='h-28 max-w-screen-lg'
-            style={{ minHeight: '400px', maxHeight: '800px' }}>
+            style={{ minHeight: '500px', maxHeight: '800px' }}>
             <div className='columns-2'>
               <div
                 className='h-full flex justify-center items-center'
@@ -38,7 +38,7 @@ export default function MultiUseCarousel() {
                   marginLeft: '-15px',
                   borderRadius: '0',
                 }}>
-                <p className='p-10 text-lg'>
+                <p className='p-10 text-lg'  style={{paddingRight: '5.5rem'}}>
                   Espaço Gourmet A carreta vai apresentar três configurações em
                   seu espaço multiuso, a primeira é um ambiente destinado a
                   alimentação, o “espaço gourmet”. Para degustação de alimentos
@@ -68,7 +68,7 @@ export default function MultiUseCarousel() {
                   marginLeft: '-15px',
                   borderRadius: '0',
                 }}>
-                <p className='p-10 text-lg'>
+                <p className='p-10 text-lg'  style={{paddingRight: '5.5rem'}}>
                 A segunda configuração vai ser destinada a “apresentações
                 diversas”, shows, palestras, oficinas, exposições, entre outros.
                 Nesse momento o painel de vidro da sala multiuso se abre e se
@@ -97,7 +97,7 @@ export default function MultiUseCarousel() {
                   marginLeft: '-15px',
                   borderRadius: '0',
                 }}>
-                <p className='p-10 text-lg'>
+                <p className='p-10 text-lg'  style={{paddingRight: '5.5rem'}}>
                 Finalmente, a terceira configuração é o que denominamos “espaço
                 sensorial”. Ali serão projetados imagens, cheiros e sons que
                 trarão grande impacto à experiência do visitante. É neste espaço
@@ -126,7 +126,7 @@ export default function MultiUseCarousel() {
                   marginLeft: '-15px',
                   borderRadius: '0',
                 }}>
-                <p className='p-10 text-lg'>
+                <p className='p-10 text-lg ' style={{paddingRight: '5.5rem'}}>
                 A carreta vai ter ainda um ”estúdio” para gravações de
                 entrevistas e lives. O ambiente terá capacidade para até quatro
                 participantes. Conta ainda com controle de áudio e vídeo,

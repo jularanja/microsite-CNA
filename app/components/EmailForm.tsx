@@ -11,7 +11,7 @@ export default function EmailForm() {
       <div
         className='flex max-w-sm lg:max-w-xl  mx-auto flex-col px-5 lg:px-10'
         style={{ minWidth: '' }}>
-        <h2 className='text-gray-500  lg:mb-8 text-4xl md:text-5xl font-bold mb-4 from-current text-center italic'>
+        <h2 className='text-gray-500  lg:mb-8 text-4xl md:text-5xl font-bold mb-4 from-current text-center md:text-left italic'>
           Fale Conosco
         </h2>
         <p className='text-center md:text-left text-gray-500 font-normal'>

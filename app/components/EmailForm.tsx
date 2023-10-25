@@ -7,7 +7,7 @@ export default function EmailForm() {
   return (
     <div
       id='contato'
-      className='container  max-w-2xl mx-auto my-24 flex justify-center gap-18 lg:gap-28 flex-col lg:flex-row'>
+      className='container  max-w-2xl md:max-w-4xl mx-auto my-24 flex justify-center gap-18 lg:gap-28 flex-col lg:flex-row'>
       <div
         className='flex max-w-sm lg:max-w-xl  mx-auto flex-col px-5 lg:px-10'
         style={{ minWidth: '' }}>

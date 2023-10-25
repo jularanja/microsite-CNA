@@ -39,7 +39,7 @@ export default function MultiUseCarousel() {
                   borderRadius: '0',
                 }}>
                 <p className='p-10 text-lg'  style={{paddingRight: '5.5rem'}}>
-                  Espaço Gourmet A carreta vai apresentar três configurações em
+                  A carreta vai apresentar três configurações em
                   seu espaço multiuso, a primeira é um ambiente destinado a
                   alimentação, o “espaço gourmet”. Para degustação de alimentos
                   artesanais e tradicionais. O espaço será equipado de bancada

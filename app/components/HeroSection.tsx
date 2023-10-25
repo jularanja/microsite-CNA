@@ -16,20 +16,20 @@ const HeroSection = () => {
               height={70}
             />
           </div>
-          <div className='text-center md:py-14 flex justify-center relative lg:absolute lg:left-1/2 lg:top-48 max-w-screen'>
+          <div className='text-center my-4 mb-8 md:py-14 flex justify-center relative lg:absolute lg:left-1/2 lg:top-48 max-w-screen'>
             <Image
-              className='h-24 sm:h-56 w-auto'
+              className='h-56 sm:h-80 w-auto'
               src='/images/carreta.png'
               alt='imagem-carreta-3D'
               width={1920}
               height={905}
             />
           </div>
-          <p className='mt-1 m-auto max-w-md text-xl font-medium leading-7 text-gray-600'>
+          <p className='my-8 md:my-1 m-auto max-w-md text-xl font-medium leading-7 text-gray-600'>
             Uma nova forma de levar o Sistema CNA/Senar/ICNA aos quatro cantos
             deste país
           </p>
-          <div className='mt-6 flex items-center justify-center gap-x-6 lg:justify-start'>
+          <div className='my-8 md:mt-6 flex items-center justify-center gap-x-6 lg:justify-start'>
             <button
               type='button'
               className='rounded-full bg-gradient-to-t  from-secondary to-lime_green hover:from-primary hover:to-primary px-7 py-2 text-lg font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>

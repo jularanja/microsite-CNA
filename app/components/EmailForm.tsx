@@ -3,7 +3,6 @@
 import { Button, TextInput, Textarea } from 'flowbite-react';
 import SocialMediaLinks from './SoccialMediaLinks';
 
-
 export default function EmailForm() {
   return (
     <div
@@ -15,24 +14,26 @@ export default function EmailForm() {
         <h2 className='text-gray-500  lg:mb-8 text-4xl md:text-5xl font-bold mb-4 from-current text-center md:text-left italic'>
           Fale Conosco
         </h2>
-        <p className='text-center md:text-left text-gray-500 font-normal'>
+        <p className='text-center md:text-left text-gray-500 font-normal  '>
           <span className='font-medium'>
             Sistema CNA / SENAR / Instituto CNA
           </span>{' '}
           <br />
-          SGAN Quadra 601, Módulo K - Ed. Antônio Ernesto de Salvo <br />Brasília -
-          Distrito Federal <br />
-          <span className='font-medium pb-1 inline-block'>CEP:</span> 70830-903 <br />
-          <span className='font-medium pb-1 inline-block'>Telefone:</span> (61) 2109-1400 <br />
-          <span className='font-medium pb-1 inline-block'>E-mail:</span> cna@cna.org.br / senar@senar.org.br
+          SGAN Quadra 601, Módulo K - Ed. Antônio Ernesto de Salvo <br />
+          Brasília - Distrito Federal <br />
+          <span className='font-medium pb-1 inline-block'>
+            CEP:
+          </span> 70830-903 <br />
+          <span className='font-medium pb-1 inline-block'>Telefone:</span> (61)
+          2109-1400 <br />
+          <span className='font-medium pb-1 inline-block'>E-mail:</span>{' '}
+          cna@cna.org.br / senar@senar.org.br
         </p>
-        
+
         <SocialMediaLinks />
       </div>
       <div className='flex flex-1 justify-center'>
-        <form
-         
-          className='flex max-w-md flex-col gap-4 mx-auto'>
+        <form className='flex max-w-md flex-col gap-4 mx-auto'>
           <p className='text-center md:text-left text-gray-500 font-medium mt-2'>
             Ficou interessado em contratar a carreta? <br /> Vamos trabalhar
             juntos!

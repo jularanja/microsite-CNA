@@ -28,7 +28,7 @@ const VideoSection = () => {
             <h2 className='text-headingColor text-3xl md:text-4xl font-bold from-current mb-8 text-center italic'>
               SOBRE A CARRETA AGRO PELO BRASIL
             </h2>
-            <p className='my-6 text-xl text-gray-600'>
+            <p className='my-6 text-xl text-gray-600 text-justify'>
               Trata-se de uma Carreta personalizada, com proposta multiuso, que
               apresentará o trabalho do Sistema aos participantes dos inúmeros
               eventos do agronegócio que acontecem no Brasil anualmente. A
@@ -43,7 +43,7 @@ const VideoSection = () => {
               vidro da sala multiuso se abre e se transforma em um grande palco
               se conectando ao público presente.
             </p>
-            <p className='my-6 text-xl text-gray-600'>
+            <p className='my-6 text-xl text-gray-600 text-justify'>
               Finalmente, a terceira configuração é o que denominamos “espaço
               sensorial”. Ali serão projetados imagens e sons que trarão grande
               impacto à experiência do visitante. É neste espaço que vamos

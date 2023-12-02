@@ -42,7 +42,7 @@ export default function EmailForm() {
             juntos!
           </p>
           <div>
-            <TextInput id='name' placeholder='Seu nome' required />
+            <TextInput name='name' id='name' placeholder='Seu nome' required />
           </div>
 
           <div>
@@ -51,11 +51,12 @@ export default function EmailForm() {
               placeholder='Seu email'
               required
               type='email'
+              name='email'
             />
           </div>
 
           <div>
-            <Textarea id='msg' placeholder='Sua mensagem' required rows={4} />
+            <Textarea id='msg' placeholder='Sua mensagem' required rows={4} name='message' />
           </div>
 
           <div className='flex justify-center lg:justify-end'>

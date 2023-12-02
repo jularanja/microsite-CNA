@@ -6,7 +6,13 @@ export default function Cronograma() {
     <div
       id='cronograma'
       className='mx-auto rounded-xl'
-      style={{ background: '#efc630', maxWidth: '90%', borderRadius: '40px' }}>
+      style={{ 
+        background: '#efc630', 
+        maxWidth: '90%', 
+        borderRadius: '40px',
+        marginTop: '135px'
+      }}
+    >
       <div className='grid grid-cols-1 gap-4 '>
         <div className='min-h-screen  bg-yellow-300 flex justify-center items-center rounded-2xl'>
           <div className='container mx-auto p-12 '>

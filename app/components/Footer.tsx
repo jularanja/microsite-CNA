@@ -24,7 +24,7 @@ export default function Footer() {
          
         </div>
         <div className='max-w-screen-lg mx-auto'>
-          <span className='block font-medium text-md text-primary text-center '>
+          <span className='block font-medium text-xs md:text-md text-primary text-center '>
             © CNA 2023 - TODOS OS DIREITOS RESERVADOS
           </span>
         </div>

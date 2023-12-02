@@ -7,8 +7,10 @@ import Cronograma from './components/Cronograma';
 import MultiUseCarousel from './components/MultiUseCarousel';
 import EmailForm from './components/EmailForm';
 
+
 const Home = () => {
-  return (
+  
+   return (
     <>
       <HeroSection />
       <VideoSection />

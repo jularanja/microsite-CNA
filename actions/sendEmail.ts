@@ -1,4 +1,4 @@
-/*'use server';
+'use server';
 
 import { Resend } from 'resend';
 
@@ -15,4 +15,4 @@ export const sendEmail = async (formData: FormData) => {
     subject: 'Message from contact form',
     text: 'Hello!',
   });
-};*/
+};

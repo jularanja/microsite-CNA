@@ -2,6 +2,7 @@
 
 import { Button, TextInput, Textarea } from 'flowbite-react';
 import SocialMediaLinks from './SoccialMediaLinks';
+import { sendEmail } from '@/actions/sendEmail';
 
 export default function EmailForm() {
   return (
@@ -33,7 +34,9 @@ export default function EmailForm() {
         <SocialMediaLinks />
       </div>
       <div className='flex flex-1 justify-center'>
-        <form className='flex max-w-md flex-col gap-4 mx-auto'>
+        <form className='flex max-w-md flex-col gap-4 mx-auto' action={async (formData) => {
+          await sendEmail(formData);
+        }}>
           <p className='text-center md:text-left text-gray-500 font-medium mt-2'>
             Ficou interessado em contratar a carreta? <br /> Vamos trabalhar
             juntos!

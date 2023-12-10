@@ -14,9 +14,9 @@ export const sendEmail = async (formData: FormData) => {
   //montar o conteúdo com os elementos do form, e concatena, colocando no text abaixo
 
   resend.emails.send({
-    from: 'onboarding@resend.dev',
-    to: 'mareslaranja@gmail.com',
+    from: `${email}`,
+    to: `mareslaranja@gmail.com`,
     subject: `Mensagem de ${name}`,
-    text: 'Hello!',
+    text: `${message}`,
   });
 };

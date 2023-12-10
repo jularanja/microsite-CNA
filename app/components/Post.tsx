@@ -24,10 +24,10 @@ type Post = {
 const posts = [
   {
     id: 1,
-    title: 'Feira Agropecuária',
+    title: 'Em breve',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. ',
+      '',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
@@ -36,10 +36,10 @@ const posts = [
 
   {
     id: 2,
-    title: 'Feira Agropecuária',
+    title: 'Em breve',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. ',
+      ' ',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
@@ -48,10 +48,10 @@ const posts = [
 
   {
     id: 3,
-    title: 'Feira Agropecuária',
+    title: 'Em breve',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. ',
+      ' ',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
@@ -60,17 +60,17 @@ const posts = [
 
   {
     id: 4,
-    title: 'Feira Agropecuária',
+    title: 'Em breve',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. ',
+      ' ',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
     url: '/images/carreta-mockup.png',
   },
 
-  // More posts...
+  // More news...
 ];
 
 const Post = () => {

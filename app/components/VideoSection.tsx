@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
 import { IoCloseOutline } from 'react-icons/io5';
@@ -28,37 +29,44 @@ const VideoSection = () => {
             <h2 className='text-headingColor text-3xl md:text-4xl font-bold from-current mb-8 text-center italic'>
               SOBRE A CARRETA AGRO PELO BRASIL
             </h2>
-            <p className='my-6 text-xl text-gray-600 text-justify'>
-              Trata-se de uma Carreta personalizada, com proposta multiuso, que
-              apresentará o trabalho do Sistema aos participantes dos inúmeros
-              eventos do agronegócio que acontecem no Brasil anualmente. A
-              carreta vai apresentar três configurações em seu espaço multiuso,
-              a primeira é um ambiente destinado a alimentação, o “espaço
-              gourmet”. Para degustação de alimentos artesanais e tradicionais.
-              O espaço será equipado de bancada com capacidade para até 17
-              visitantes sentados e uma cozinha gourmet equipada com
-              equipamentos de última geração. A segunda configuração vai ser
-              destinada a “apresentações diversas” palestras, oficinas,
-              exposições, apresentações entre outros. Nesse momento o painel de
-              vidro da sala multiuso se abre e se transforma em um grande palco
-              se conectando ao público presente.
+            <p className='my-6 text-xl text-gray-600 text-left'>
+              A carreta <strong className='text-headingColor'>Agro pelo Brasil</strong> traz uma proposta multiuso para
+              apresentar o trabalho do Sistema CNA nos inúmeros eventos do
+              agronegócio que acontecem no Brasil.
             </p>
-            <p className='my-6 text-xl text-gray-600 text-justify'>
-              Finalmente, a terceira configuração é o que denominamos “espaço
-              sensorial”. Ali serão projetados imagens e sons que trarão grande
-              impacto à experiência do visitante. É neste espaço que vamos
-              apresentar conteúdos imersivos para proporcionar ao visitante uma
-              experiência única e inesperada. A carreta vai ter ainda um
-              ”estúdio” para gravações de entrevistas e lives. O ambiente terá
-              capacidade para até quatro participantes. Conta ainda com controle
+            <p className='my-6 text-xl text-gray-600 text-left'>
+              Possui um ambiente destinado à harmonização e degustação de
+              alimentos, denominado <strong className='text-headingColor'>cozinha experimental</strong>. O espaço traz uma
+              bancada, equipamentos, utensílios e capacidade para 17 pessoas
+              sentadas.
+            </p>
+            <p className='my-6 text-xl text-gray-600 text-left'>
+              {' '}
+              <strong className='text-headingColor'>Espaço multiuso:</strong> destina-se a palestras, reuniões, oficinas e
+              exibição de vídeos institucionais. O painel de vidro lateral pode
+              ser aberto e criar um palco conectado ao público externo.{' '}
+            </p>
+
+            <p className='my-6 text-xl text-gray-600 text-left'>
+              {' '}
+              <strong className='text-headingColor'>Espaço sensorial:</strong> onde os visitantes terão uma experiência única e
+              imersiva a partir de projeções de vídeos e sons impactantes.{' '}
+            </p>
+            <p className='my-6 text-xl text-gray-600 text-left'>
+              {' '}
+              <strong className='text-headingColor'>Estúdio</strong> para gravações de entrevistas e lives. O ambiente tem
+              capacidade para até quatro participantes e é equipado com controle
               de áudio e vídeo, revestimento acústico, microfones e câmeras de
-              última geração. Do lado externo da carreta, vamos ter uma “feira”
-              para comercialização de produtos artesanais e tradicionais, onde
-              os visitantes além de participarem de degustações oferecidas na
-              carreta, vão poder ainda comprar os produtos que desejarem.
-              <br/> <br/>
+              última geração. O material produzido pode ser transmitido em tempo
+              real, via internet.{' '}
             </p>
-            <div className=''>
+            <p className='my-6 text-xl text-gray-600 text-left'>
+            <strong className='text-headingColor'>Feira de produtos artesanais e tradicionais</strong> montada no ambiente
+              externo, para venda de produtos regionais.
+            </p>
+
+    
+            <div className='sm:my-20'>
               <div onClick={toggleVisibility}>
                 <button
                   onClick={openModal}

@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className='text-center p-6 lg:text-left lg:max-w-lg'>
           <div className='text-center flex justify-center'>
             <Image
-              className='h-24 sm:h-36 w-auto md:translate-x-[-3em] lg:translate-x-[-8em]'
+              className='min-h-56 sm:h-36 w-auto md:translate-x-[-3em] lg:translate-x-[-8em]'
               src='images/logo-agro-brasil.svg'
               alt='logo-cna-senar-icna'
               width={300}
@@ -18,16 +18,16 @@ const HeroSection = () => {
           </div>
           <div className='text-center my-4 mb-8 md:py-14 flex justify-center relative lg:absolute lg:left-1/2 lg:top-48 max-w-screen'>
             <Image
-              className='h-56 sm:h-80 w-auto'
-              src='/images/carreta.png'
+              className='min-w-96 h-auto mt-10 md:ml-[-145px]'
+              src='/images/caminhao_agro_pelo_brasil.png'
               alt='imagem-carreta-3D'
               width={1920}
               height={905}
             />
           </div>
           <p className='my-8 md:my-1 m-auto max-w-md text-xl font-medium leading-7 text-gray-600'>
-            Uma nova forma de levar o Sistema CNA/Senar/ICNA aos quatro cantos
-            deste país
+            Uma forma inovadora de levar o Sistema CNA/Senar/ICNA aos quatro
+            cantos do Brasil
           </p>
           <div className='my-8 md:mt-6 flex items-center justify-center gap-x-6 lg:justify-start'>
             <button

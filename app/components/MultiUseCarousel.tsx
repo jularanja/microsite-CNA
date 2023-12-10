@@ -21,13 +21,13 @@ export default function MultiUseCarousel() {
               <div
                 className='h-full flex justify-center items-center'
                 style={{
-                  backgroundImage: `url('/images/gastronomia.jpg')`,
+                  backgroundImage: `url('/images/oficinasecursos.jpg')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   minHeight: '400px',
                 }}>
                 <span className='text-white text-3xl font-bold text-center'>
-                  DEGUSTAÇÃO DE ALIMENTOS ARTESANAIS E TRADICIONAIS
+                  Oficinas e cursos
                 </span>
               </div>
 
@@ -39,46 +39,7 @@ export default function MultiUseCarousel() {
                   borderRadius: '0',
                 }}>
                 <p className='p-10 text-lg' style={{ paddingRight: '5.5rem' }}>
-                  <span className='font-bold'>
-                    - DEGUSTAÇÃO DE ALIMENTOS ARTESANAIS E TRADICIONAIS
-                  </span>{' '}
-                  - é um ambiente destinado a alimentação, o “espaço gourmet”.
-                  Para degustação de alimentos artesanais e tradicionais. O
-                  espaço será equipado de bancada com capacidade para até 17
-                  visitantes sentados e uma cozinha gourmet equipada com
-                  equipamentos de última geração.
-                </p>
-              </div>
-            </div>
-
-            <div className='columns-2'>
-              <div
-                className='h-full flex justify-center items-center'
-                style={{
-                  backgroundImage: `url('/images/sensorial.jpg')`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  minHeight: '400px',
-                }}>
-                <span className='text-white text-4xl font-bold'>
-                  {' '}
-                  ESPAÇO SENSORIAL
-                </span>
-              </div>
-
-              <div
-                className='bg-white flex items-center'
-                style={{
-                  height: '-webkit-fill-available',
-                  marginLeft: '-15px',
-                  borderRadius: '0',
-                }}>
-                <p className='p-10 text-lg' style={{ paddingRight: '5.5rem' }}>
-                  <span className='font-bold'> - ESPAÇO SENSORIAL -</span> Ali
-                  serão projetados imagens e sons que trarão grande impacto à
-                  experiência do visitante. É neste espaço que vamos apresentar
-                  conteúdos imersivos para proporcionar ao visitante uma
-                  experiência única e inesperada.
+                  Ambiente para ações de capacitação do Senar.
                 </p>
               </div>
             </div>
@@ -94,7 +55,7 @@ export default function MultiUseCarousel() {
                 }}>
                 <span className='text-white text-4xl font-bold'>
                   {' '}
-                  PALESTRAS
+                  Palestras
                 </span>
               </div>
 
@@ -106,8 +67,8 @@ export default function MultiUseCarousel() {
                   borderRadius: '0',
                 }}>
                 <p className='p-10 text-lg' style={{ paddingRight: '5.5rem' }}>
-                  <span className='font-bold'> - PALESTRAS - </span> Estão
-                  previstas diversas palestras com temas relevantes do setor.
+                  No ambiente multiuso, o painel de vidro pode se abrir criando
+                  um palco coberto voltado para a área externa.
                 </p>
               </div>
             </div>
@@ -116,12 +77,12 @@ export default function MultiUseCarousel() {
               <div
                 className='h-full flex justify-center items-center'
                 style={{
-                  backgroundImage: `url('/images/oficinas.jpg')`,
+                  backgroundImage: `url('/images/reunioes.jpg')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   minHeight: '400px',
                 }}>
-                <span className='text-white text-4xl font-bold'> OFICINAS</span>
+                <span className='text-white text-4xl font-bold'> Reuniões</span>
               </div>
 
               <div
@@ -132,9 +93,37 @@ export default function MultiUseCarousel() {
                   borderRadius: '0',
                 }}>
                 <p className='p-10 text-lg' style={{ paddingRight: '5.5rem' }}>
-                  <span className='font-bold'>- OFICINAS -</span> A realização
-                  de oficinas também será outro atrativo a ser realizado pelas
-                  Federações parceiras.
+                  Ambiente configurado com bancada para até 17 pessoas sentadas,
+                  equipada com tomadas e cabos de rede.{' '}
+                </p>
+              </div>
+            </div>
+
+            <div className='columns-2'>
+              <div
+                className='h-full flex justify-center items-center'
+                style={{
+                  backgroundImage: `url('/images/apresentacoesculturais.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '400px',
+                }}>
+                <span className='text-white text-4xl font-bold text-center'>
+                  {' '}
+                  Apresentações culturais
+                </span>
+              </div>
+
+              <div
+                className='bg-white flex items-center'
+                style={{
+                  height: '-webkit-fill-available',
+                  marginLeft: '-15px',
+                  borderRadius: '0',
+                }}>
+                <p className='p-10 text-lg' style={{ paddingRight: '5.5rem' }}>
+                  O palco pode ser utilizado para diversas apresentações
+                  culturais/artísticas.
                 </p>
               </div>
             </div>
@@ -150,7 +139,7 @@ export default function MultiUseCarousel() {
                 }}>
                 <span className='text-white text-2xl font-bold text-center'>
                   {' '}
-                  FEIRA DE PRODUTOS ARTESANAIS E TRADICIONAIS
+                  Feira de produtos artesanais e tradicionais
                 </span>
               </div>
 
@@ -162,13 +151,8 @@ export default function MultiUseCarousel() {
                   borderRadius: '0',
                 }}>
                 <p className='p-10 text-lg ' style={{ paddingRight: '5.5rem' }}>
-                  <span className='font-bold'>
-                    - FEIRA DE PRODUTOS ARTESANAIS E TRADICIONAIS -
-                  </span>{' '}
-                  Do lado externo da carreta, vamos ter uma “feira” para
-                  comercialização de produtos artesanais e tradicionais, onde os
-                  visitantes além de participarem de degustações oferecidas na
-                  carreta, vão poder ainda comprar os produtos que desejarem.
+                  No ambiente externo haverá feira para comercialização de
+                  produtos artesanais e tradicionais.{' '}
                 </p>
               </div>
             </div>
@@ -184,7 +168,7 @@ export default function MultiUseCarousel() {
                 }}>
                 <span className='text-white text-4xl font-bold'>
                   {' '}
-               ESTÚDIO PODCAST
+                  Estúdio podcast
                 </span>
               </div>
 
@@ -196,21 +180,139 @@ export default function MultiUseCarousel() {
                   borderRadius: '0',
                 }}>
                 <p className='p-10 text-lg ' style={{ paddingRight: '5.5rem' }}>
-                <span className='font-bold'> - ESTÚDIO PODCAST - </span>A carreta vai ter ainda um ”estúdio” para gravações de entrevistas e lives. O ambiente terá capacidade para até quatro participantes.
+                  Estúdio para gravações de entrevistas e lives. O ambiente tem
+                  capacidade para até quatro participantes, revestimento
+                  acústico e os mais modernos equipamentos de áudio e vídeo.{' '}
+                </p>
+              </div>
+            </div>
+
+            <div className='columns-2'>
+              <div
+                className='h-full flex justify-center items-center'
+                style={{
+                  backgroundImage: `url('/images/cozinhaexperimental.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '400px',
+                }}>
+                <span className='text-white text-4xl font-bold text-center'>
+                  {' '}
+                  Cozinha experimental
+                </span>
+              </div>
+
+              <div
+                className='bg-white flex items-center'
+                style={{
+                  height: '-webkit-fill-available',
+                  marginLeft: '-15px',
+                  borderRadius: '0',
+                }}>
+                <p className='p-10 text-lg ' style={{ paddingRight: '5.5rem' }}>
+                  Espaço para degustação de alimentos, equipado com bancada para
+                  até 17 pessoas sentadas e uma cozinha funcional.
+                </p>
+              </div>
+            </div>
+
+            <div className='columns-2'>
+              <div
+                className='h-full flex justify-center items-center'
+                style={{
+                  backgroundImage: `url('/images/exibicaodevideos.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '400px',
+                }}>
+                <span className='text-white text-4xl font-bold text-center'>
+                  {' '}
+                  Exibição de vídeos institucionais
+                </span>
+              </div>
+
+              <div
+                className='bg-white flex items-center'
+                style={{
+                  height: '-webkit-fill-available',
+                  marginLeft: '-15px',
+                  borderRadius: '0',
+                }}>
+                <p className='p-10 text-lg ' style={{ paddingRight: '5.5rem' }}>
+                  A exibição de filmes é outra possibilidade disponível dentre
+                  as várias configurações do espaço multiuso.
+                </p>
+              </div>
+            </div>
+
+            <div className='columns-2'>
+              <div
+                className='h-full flex justify-center items-center'
+                style={{
+                  backgroundImage: `url('/images/deck.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '400px',
+                }}>
+                <span className='text-white text-4xl font-bold text-center'>
+                  {' '}
+                  Deck
+                </span>
+              </div>
+
+              <div
+                className='bg-white flex items-center'
+                style={{
+                  height: '-webkit-fill-available',
+                  marginLeft: '-15px',
+                  borderRadius: '0',
+                }}>
+                <p className='p-10 text-lg ' style={{ paddingRight: '5.5rem' }}>
+                  Espaço de convivência no topo da carreta.
+                </p>
+              </div>
+            </div>
+
+            <div className='columns-2'>
+              <div
+                className='h-full flex justify-center items-center'
+                style={{
+                  backgroundImage: `url('/images/imersao.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '400px',
+                }}>
+                <span className='text-white text-4xl font-bold text-center'>
+                  {' '}
+                  Imersão
+                </span>
+              </div>
+
+              <div
+                className='bg-white flex items-center'
+                style={{
+                  height: '-webkit-fill-available',
+                  marginLeft: '-15px',
+                  borderRadius: '0',
+                }}>
+                <p className='p-10 text-lg ' style={{ paddingRight: '5.5rem' }}>
+                  Experiência imersiva impactante por meio de múltiplas
+                  projeções de vídeos e sons.
                 </p>
               </div>
             </div>
           </Carousel>
         </div>
       </div>
-      {/* Carousel multiuso mobile */}
+
+      {/*//////////// Carousel multiuso mobile ///////////////*/}
       <div className='block md:hidden'>
         <div className='flex flex-col justify-center md:hidden'>
           <div className='mb-4'>
             <div
               className='justify-center items-center'
               style={{
-                backgroundImage: `url('/images/gastronomia.jpg')`,
+                backgroundImage: `url('/images/oficinasecursos.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 minHeight: '200px',
@@ -224,13 +326,9 @@ export default function MultiUseCarousel() {
               }}>
               <p className='p-5 text-lg '>
                 <span className='text-primary block text-3xl font-medium mb-5'>
-                  DEGUSTAÇÃO DE ALIMENTOS ARTESANAIS E TRADICIONAIS
+                  Oficinas e cursos
                 </span>
-                É um ambiente destinado a alimentação, o “espaço gourmet”. Para
-                degustação de alimentos artesanais e tradicionais. O espaço será
-                equipado de bancada com capacidade para até 17 visitantes
-                sentados e uma cozinha gourmet equipada com equipamentos de
-                última geração.
+                Ambiente para ações de capacitação do Senar.
               </p>
             </div>
           </div>
@@ -239,7 +337,7 @@ export default function MultiUseCarousel() {
             <div
               className='justify-center items-center'
               style={{
-                backgroundImage: `url('/images/sensorial.jpg')`,
+                backgroundImage: `url('/images/palestras.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 minHeight: '200px',
@@ -253,12 +351,10 @@ export default function MultiUseCarousel() {
               }}>
               <p className='p-5 text-lg '>
                 <span className='text-primary block text-3xl font-medium mb-5 '>
-                  ESPAÇO SENSORIAL
+                  Palestras
                 </span>
-                Ali serão projetados imagens e sons que trarão grande impacto à
-                experiência do visitante. É neste espaço que vamos apresentar
-                conteúdos imersivos para proporcionar ao visitante uma
-                experiência única e inesperada.
+                No ambiente multiuso, o painel de vidro pode se abrir criando um
+                palco coberto voltado para a área externa.
               </p>
             </div>
           </div>
@@ -267,7 +363,7 @@ export default function MultiUseCarousel() {
             <div
               className='justify-center items-center'
               style={{
-                backgroundImage: `url('/images/sensorial.png')`,
+                backgroundImage: `url('/images/reunioes.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 minHeight: '200px',
@@ -281,11 +377,11 @@ export default function MultiUseCarousel() {
               }}>
               <p className='p-5 text-lg '>
                 <span className='text-primary block text-3xl font-medium mb-5 '>
-                PALESTRAS
+                  Reuniões
                 </span>
-                Estão previstas diversas palestras com temas relevantes do setor.
-                <br/>
-                
+                Ambiente configurado com bancada para até 17 pessoas sentadas,
+                equipada com tomadas e cabos de rede.
+                <br />
               </p>
             </div>
           </div>
@@ -294,7 +390,7 @@ export default function MultiUseCarousel() {
             <div
               className='justify-center items-center'
               style={{
-                backgroundImage: `url('/images/oficinas.jpg')`,
+                backgroundImage: `url('/images/apresentacoesculturais.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 minHeight: '200px',
@@ -308,11 +404,38 @@ export default function MultiUseCarousel() {
               }}>
               <p className='p-5 text-lg '>
                 <span className='text-primary block text-3xl font-medium mb-5 '>
-                 OFICINAS
+                  Apresentações culturais
                 </span>
-                 A realização de oficinas também será outro atrativo a ser realizado pelas Federações parceiras.
+                O palco pode ser utilizado para diversas apresentações
+                culturais/artísticas.
+              </p>
+            </div>
+          </div>
 
+          <div className='mb-4'>
+            <div
+              className='justify-center items-center'
+              style={{
+                backgroundImage: `url('/images/feiradeprodutos.jpg')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                minHeight: '200px',
+              }}></div>
 
+            <div
+              className='bg-white'
+              style={{
+                height: '-webkit-fill-available',
+                borderRadius: '0',
+              }}>
+              <p className='p-5 text-lg '>
+                <span className='text-primary block text-3xl font-medium mb-5 '>
+                  Feira de produtos artesanais e tradicionais
+                </span>
+                No ambiente externo haverá feira para comercialização de
+                produtos artesanais e tradicionais.
+                <br />
+                <br />
               </p>
             </div>
           </div>
@@ -335,12 +458,123 @@ export default function MultiUseCarousel() {
               }}>
               <p className='p-5 text-lg '>
                 <span className='text-primary block text-3xl font-medium mb-5 '>
-                ESTÚDIO PODCAST
+                  Estúdio podcast
                 </span>
-          A carreta vai ter ainda um ”estúdio” para gravações de entrevistas e lives. O ambiente terá capacidade para até quatro participantes.
+                Estúdio para gravações de entrevistas e lives. O ambiente tem
+                capacidade para até quatro participantes, revestimento acústico
+                e os mais modernos equipamentos de áudio e vídeo.
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
 
-          <br/><br/>
+          <div className='mb-4'>
+            <div
+              className='justify-center items-center'
+              style={{
+                backgroundImage: `url('/images/cozinhaexperimental.jpg')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                minHeight: '200px',
+              }}></div>
 
+            <div
+              className='bg-white'
+              style={{
+                height: '-webkit-fill-available',
+                borderRadius: '0',
+              }}>
+              <p className='p-5 text-lg '>
+                <span className='text-primary block text-3xl font-medium mb-5 '>
+                  Cozinha experimental
+                </span>
+                Espaço para degustação de alimentos, equipado com bancada para
+                até 17 pessoas sentadas e uma cozinha funcional.
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
+
+          <div className='mb-4'>
+            <div
+              className='justify-center items-center'
+              style={{
+                backgroundImage: `url('/images/exibicaodevideos.jpg')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                minHeight: '200px',
+              }}></div>
+
+            <div
+              className='bg-white'
+              style={{
+                height: '-webkit-fill-available',
+                borderRadius: '0',
+              }}>
+              <p className='p-5 text-lg '>
+                <span className='text-primary block text-3xl font-medium mb-5 '>
+                  Exibição de vídeos institucionais
+                </span>
+                A exibição de filmes é outra possibilidade disponível dentre as
+                várias configurações do espaço multiuso.
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
+
+          <div className='mb-4'>
+            <div
+              className='justify-center items-center'
+              style={{
+                backgroundImage: `url('/images/deck.jpg')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                minHeight: '200px',
+              }}></div>
+
+            <div
+              className='bg-white'
+              style={{
+                height: '-webkit-fill-available',
+                borderRadius: '0',
+              }}>
+              <p className='p-5 text-lg '>
+                <span className='text-primary block text-3xl font-medium mb-5 '>
+                Deck
+                </span>
+                Espaço de convivência no topo da carreta.
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
+
+          <div className='mb-4'>
+            <div
+              className='justify-center items-center'
+              style={{
+                backgroundImage: `url('/images/imersao.jpg')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                minHeight: '200px',
+              }}></div>
+
+            <div
+              className='bg-white'
+              style={{
+                height: '-webkit-fill-available',
+                borderRadius: '0',
+              }}>
+              <p className='p-5 text-lg '>
+                <span className='text-primary block text-3xl font-medium mb-5 '>
+                Imersão
+                </span>
+                Experiência imersiva impactante por meio de múltiplas projeções de vídeos e sons.
+                <br />
+                <br />
               </p>
             </div>
           </div>

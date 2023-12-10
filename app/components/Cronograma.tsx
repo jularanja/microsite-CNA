@@ -18,7 +18,7 @@ const events = [
   {
     id: 1,
     date: '12/23',
-    title: 'Inauguração',
+    title: 'Inauguração - Brasília/DF',
     href: '#',
     url: '/images/peixes.png',
     flag: '/images/01-brasil-circle.png',
@@ -386,7 +386,7 @@ export default function Cronograma() {
                         Em breve
                       </h1>
 
-                      {events.slice(1, 6).map((event) => (
+                        {/*{events.slice(1, 6).map((event) => (
                         <div key={event.id}>
                                   <p className='flex items-center justify-between text-lg gap-1 mb-3'>
                         <span>
@@ -408,7 +408,7 @@ export default function Cronograma() {
                   
                           
                         </div>
-                      ))}
+                        ))}*/}
 
               
 

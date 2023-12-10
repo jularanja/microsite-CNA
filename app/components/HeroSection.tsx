@@ -33,7 +33,7 @@ const HeroSection = () => {
             <button
               type='button'
               className='rounded-full bg-gradient-to-t  from-secondary to-lime_green hover:from-primary hover:to-primary px-7 py-2 text-lg font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary'>
-              Saiba mais
+             <a href="#apresentacao">Saiba mais</a> 
             </button>
           </div>
         </div>

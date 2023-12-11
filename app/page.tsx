@@ -8,16 +8,20 @@ import MultiUseCarousel from './components/MultiUseCarousel';
 import EmailForm from './components/EmailForm';
 
 
+
+
 const Home = () => {
   
    return (
     <>
-      <HeroSection />
+      <HeroSection />s
       <VideoSection />
       <Cronograma />
       <Slider />
       <Post />
-      <EmailForm />     
+      <EmailForm />  
+     
+   
     </>
   );
 };

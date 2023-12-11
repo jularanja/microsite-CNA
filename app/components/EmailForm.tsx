@@ -3,6 +3,7 @@
 import { Button, TextInput, Textarea } from 'flowbite-react';
 import SocialMediaLinks from './SoccialMediaLinks';
 import { sendEmail } from '@/actions/sendEmail';
+import ContactUs from '../components/ContactUs';
 
 export default function EmailForm() {
   return (
@@ -34,40 +35,7 @@ export default function EmailForm() {
         <SocialMediaLinks />
       </div>
       <div className='flex flex-1 justify-center'>
-        <form className='flex max-w-md flex-col gap-4 mx-auto' action={async (formData) => {
-          await sendEmail(formData);
-        }}>
-          <p className='text-center md:text-left text-gray-500 font-medium mt-2'>
-            Ficou interessado em contratar a carreta? <br /> Vamos trabalhar
-            juntos!
-          </p>
-          <div>
-            <TextInput name='name' id='name' placeholder='Seu nome' required />
-          </div>
-
-          <div>
-            <TextInput
-              id='email'
-              placeholder='Seu email'
-              required
-              type='email'
-              name='email'
-            />
-          </div>
-
-          <div>
-            <Textarea id='msg' placeholder='Sua mensagem' required rows={4} name='message' />
-          </div>
-
-          <div className='flex justify-center lg:justify-end'>
-            <button
-              className='bg-gray-400 text-white text-center my-2 text-md hover:opacity-80 py-2 px-4 rounded-md font-medium'
-              style={{ width: '150px' }}
-              type='submit'>
-              Enviar
-            </button>
-          </div>
-        </form>
+      <ContactUs/>
       </div>
     </div>
   );
